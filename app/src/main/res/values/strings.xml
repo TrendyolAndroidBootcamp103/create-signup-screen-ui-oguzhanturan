@@ -9,7 +9,7 @@
     <string name="identifier_is_too_short">Identifier is too short.</string>
     <string name="identifier_is_too_long">Identifier is too long.</string>
     <string name="identifier_must_contains">Identifier must contain @ and .</string>
-    <string name="username_must_contains">must not consist characters except: a-z, 0-9 and _</string>
+    <string name="username_must_contains">must not consist characters except: a–z, 0-9 and _</string>
     <string name="password_must_contains">Password must contain one digit, one uppercase letter, one lowercase letter and one special character.</string>
     <string name="title_activity_signup">SignupActivity</string>
     <!-- Strings used for fragments for navigation -->

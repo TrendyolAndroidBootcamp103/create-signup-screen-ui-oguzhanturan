@@ -7,9 +7,7 @@ class UsernameValidator: Validator {
 
     override fun validate(field: String) = when {
         field.isEmpty() -> R.string.this_field_is_required
-        field.trim().length < 2 -> R.string.this_field_is_required
-        field.trim().length > 20 -> R.string.this_field_is_required
-        field.trim().matches(USERNAME_REGEX.toRegex()) -> R.string.username_must_contains
+        !(field.trim().matches(USERNAME_REGEX.toRegex())) -> R.string.username_must_contains
         else -> null
     }
 
